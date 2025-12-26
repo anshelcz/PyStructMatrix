@@ -4,85 +4,78 @@ Motor de análisis matricial para estructuras planas (2D)
 **PyStructMatrix** es una librería en Python para el **análisis estructural en 2D mediante el método matricial**, orientada a pórticos y estructuras de barras.  
 Está diseñada con un enfoque **modular, claro y extensible**, ideal tanto para uso académico como profesional.
 
-La librería permite:
-- Definir nodos, elementos y condiciones de borde
-- Asignar propiedades geométricas y de material
-- Aplicar cargas distribuidas y nodales
-- Resolver el sistema estructural mediante el método matricial
-- Visualizar la geometría y resultados del modelo estructural
+## Características
 
----
+✔ Análisis matricial de estructuras 2D  
+✔ Elementos tipo barra / pórtico  
+✔ Cargas distribuidas y nodales  
+✔ Liberaciones de momento  
+✔ Visualización básica del modelo  
+✔ Código orientado a objetos  
 
-### Prerequisites
+## 📋 Prerrequisitos
 
-You need to make sure you have installed the following modules.
-* Requests
-  ```s
-  pip install numpy
-  pip install matplotlib
-  ```
+Asegúrate de tener instalados los siguientes módulos:
 
----
+```bash
+pip install numpy
+pip install matplotlib
+```
 
-## 📦 Instalación
+## 🚀 Instalación
 
-```python
+```bash
 pip install PyStructMatrix
 ```
 
----
+## 📖 Uso
 
-<!-- USAGE EXAMPLES -->
-## Usage
+Ejemplo básico:
 
-* Example 1
-    ```python
-    from PyStructMatrix import StructuralMatrixAnalysis, StructuralPlotter
-    
-    # Crear el sistema estructural
-    system = StructuralMatrixAnalysis()
-    ```
+```python
+from PyStructMatrix import StructuralMatrixAnalysis, StructuralPlotter
 
-_For more examples, please refer to the [Examples packages](https://github.com/anshelcz/PyStructMatrix/edit/main/examples)_
+# Crear el sistema estructural
+system = StructuralMatrixAnalysis()
 
-<!-- ROADMAP -->
-## Roadmap
+# Visualizar resultados
+plotter = StructuralPlotter(system)
+```
 
-See the [open issues](https://github.com/avmmodules/AVMWeather/issues) for a list of proposed features (and known issues).
+_Para más ejemplos, consulta el [directorio de ejemplos](https://github.com/anshelcz/PyStructMatrix/edit/main/examples)._
 
-## Características
-
-✔ Análisis matricial de estructuras 2D
-✔ Elementos tipo barra / pórtico
-✔ Cargas distribuidas y nodales
-✔ Liberaciones de momento
-✔ Visualización básica del modelo
-✔ Código orientado a objetos
-
-## Componentes principales
+## 🏗️ Componentes principales
 
 ### StructuralMatrixAnalysis
 
 Clase principal que gestiona:
-Definición de nodos y elementos
-Ensamblaje de la matriz de rigidez global
-Aplicación de cargas y condiciones de borde
-Resolución del sistema estructural
-Almacenamiento de resultados (desplazamientos, fuerzas internas, reacciones)
+- Definición de nodos y elementos
+- Ensamblaje de la matriz de rigidez global
+- Aplicación de cargas y condiciones de borde
+- Resolución del sistema estructural
+- Almacenamiento de resultados (desplazamientos, fuerzas internas, reacciones)
 
 ### StructuralPlotter
 
 Herramienta de visualización para:
-Geometría estructural
-Numeración de nodos y elementos
-Resultados del análisis (en desarrollo)
+- Geometría estructural
+- Numeración de nodos y elementos
+- Resultados del análisis (en desarrollo)
 
-<!-- LICENSE -->
-## License
+## 📊 Funcionalidades
 
-Distributed under the MIT License. See `LICENSE` for more information.
+- **Análisis estático lineal** de estructuras planas
+- **Soporte para diferentes tipos de elementos**: barras axiales y elementos viga-columna
+- **Cargas aplicables**: fuerzas nodales, momentos y cargas distribuidas
+- **Condiciones de apoyo**: empotrado, articulado, rodillo
+- **Resultados**: desplazamientos, fuerzas internas, reacciones de apoyo
+- **Visualización**: gráficos de la estructura antes y después de la deformación
 
-<!-- CONTACT -->
-## Contact
+## 📄 Licencia
 
-Email: anshel.chuquiviguel@utec.edu.pe
+Distribuido bajo la Licencia MIT. Consulta el archivo `LICENSE` para más información.
+
+## 📧 Contacto
+
+**Autor:** Anshel Chuquiviguel  
+**Email:** anshel.chuquiviguel@utec.edu.pe  
