@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "PyStructMatrix"
-version = "1.0.2"
+version = "1.0.4"
 description = "Motor de análisis matricial para estructuras planas (2D)"
 readme = "README.md"
 license = { file = "LICENSE" }
