@@ -43,6 +43,7 @@ plotter = StructuralPlotter(system)
 ```
 
 _Para más ejemplos, consulta el [directorio de ejemplos](https://github.com/anshelcz/PyStructMatrix/edit/main/examples)._
+_Un ejemplo desde [GOOGLE COLAB](https://colab.research.google.com/drive/1DgYbFgQNEBOLy3nB77Jqx6me50sZCLHv?usp=sharing)._
 
 ## 🏗️ Componentes principales
 
