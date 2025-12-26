@@ -79,3 +79,4 @@ Distribuido bajo la Licencia MIT. Consulta el archivo `LICENSE` para más inform
 
 **Autor:** Anshel Chuquiviguel  
 **Email:** anshel.chuquiviguel@utec.edu.pe  
+**Repositorio:** [GitHub](https://github.com/anshelcz/PyStructMatrix)
